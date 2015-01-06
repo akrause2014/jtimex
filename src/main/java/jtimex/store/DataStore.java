@@ -1,11 +1,11 @@
-package uk.ac.epcc.timex.store;
+package jtimex.store;
 
 import java.time.Duration;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
-import uk.ac.epcc.timex.Project;
+import jtimex.Project;
 
 public interface DataStore
 {

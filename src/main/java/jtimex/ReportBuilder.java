@@ -1,4 +1,4 @@
-package uk.ac.epcc.timex;
+package jtimex;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -36,10 +36,9 @@ import javafx.stage.FileChooser;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.util.Callback;
+import jtimex.store.DataStore;
 
 import org.controlsfx.dialog.Dialogs;
-
-import uk.ac.epcc.timex.store.DataStore;
 
 import com.eclipsesource.json.JsonObject;
 

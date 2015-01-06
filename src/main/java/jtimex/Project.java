@@ -1,4 +1,4 @@
-package uk.ac.epcc.timex;
+package jtimex;
 
 import java.time.Duration;
 import java.time.LocalTime;

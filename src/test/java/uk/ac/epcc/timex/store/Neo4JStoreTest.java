@@ -11,14 +11,13 @@ import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import jtimex.Project;
+import jtimex.store.Neo4JStore;
 import junit.framework.TestCase;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-import uk.ac.epcc.timex.Project;
-import uk.ac.epcc.timex.store.Neo4JStore;
 
 public class Neo4JStoreTest {
 

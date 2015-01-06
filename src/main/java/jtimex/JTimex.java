@@ -1,4 +1,4 @@
-package uk.ac.epcc.timex;
+package jtimex;
 
 import java.time.LocalDate;
 import java.util.Optional;
@@ -30,14 +30,13 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import jtimex.store.DataStore;
+import jtimex.store.InitialisationFailed;
+import jtimex.store.Neo4JStore;
 
 import org.controlsfx.dialog.Dialogs;
 
-import uk.ac.epcc.timex.store.DataStore;
-import uk.ac.epcc.timex.store.InitialisationFailed;
-import uk.ac.epcc.timex.store.Neo4JStore;
-
-public class Timex extends Application {
+public class JTimex extends Application {
 	
     private volatile Project activeProject = null;
     
@@ -66,7 +65,7 @@ public class Timex extends Application {
     	activeProject = store.loadTimexData(LocalDate.now(), data, true);
     	
         Scene scene = new Scene(new Group());
-        stage.setTitle("Timex");
+        stage.setTitle("JTimex");
         
         stage.setWidth(300);
         stage.setHeight(400);

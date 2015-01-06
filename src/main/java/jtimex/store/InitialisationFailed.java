@@ -1,4 +1,4 @@
-package uk.ac.epcc.timex.store;
+package jtimex.store;
 
 public class InitialisationFailed extends Error
 {

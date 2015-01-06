@@ -1,4 +1,4 @@
-package uk.ac.epcc.timex.store;
+package jtimex.store;
 
 import java.time.Duration;
 import java.time.LocalDate;
@@ -7,6 +7,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import jtimex.Project;
 
 import org.neo4j.graphdb.ConstraintViolationException;
 import org.neo4j.graphdb.DynamicLabel;
@@ -19,8 +21,6 @@ import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 import org.neo4j.graphdb.schema.IndexDefinition;
 import org.neo4j.graphdb.schema.Schema;
 import org.neo4j.tooling.GlobalGraphOperations;
-
-import uk.ac.epcc.timex.Project;
 
 public class Neo4JStore implements DataStore
 {
