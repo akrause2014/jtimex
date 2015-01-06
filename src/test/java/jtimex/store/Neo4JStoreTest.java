@@ -1,4 +1,4 @@
-package uk.ac.epcc.timex.store;
+package jtimex.store;
 
 import java.io.File;
 import java.time.Duration;
